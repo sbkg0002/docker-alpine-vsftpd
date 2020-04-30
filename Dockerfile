@@ -1,5 +1,4 @@
-#vim: set ft=dockerfile:
-FROM alpine:3.7
+FROM alpine
 
 RUN apk add --no-cache vsftpd
 
